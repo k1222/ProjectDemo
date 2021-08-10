@@ -18,6 +18,7 @@
         android:id="@+id/btn_recycler_view"
         android:layout_width="wrap_content"
         android:text="跳转至 RecyclerView 页"
+        android:layout_marginTop="15dp"
         android:textColor="@color/white"
         android:background="@android:color/holo_blue_light"
         android:layout_height="wrap_content"/>
