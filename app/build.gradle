@@ -37,4 +37,11 @@ dependencies {
     androidTestImplementation 'androidx.test.ext:junit:1.1.2'
     androidTestImplementation 'androidx.test.espresso:espresso-core:3.3.0'
     implementation 'com.github.CymChad:BaseRecyclerViewAdapterHelper:3.0.2'
+    implementation (group: 'com.zendesk', name: 'support', version: '5.0.2'){
+        exclude group: 'com.squareup'
+    }
+    implementation 'androidx.room:room-runtime:2.2.5'
+    annotationProcessor 'androidx.room:room-compiler:2.2.5'
+    //viewmodel
+    implementation "androidx.lifecycle:lifecycle-extensions:2.2.0"
 }
