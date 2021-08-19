@@ -57,5 +57,29 @@
         android:marqueeRepeatLimit="marquee_forever"
         android:text="下划线"
         android:textColor="@color/black" />
+    <TextView
+        android:layout_width="200dp"
+        android:text="测试自动缩小"
+        android:layout_height="50dp"
+        android:autoSizeTextType="uniform" />
+    <TextView
+        android:layout_width="200dp"
+        android:text="测试自动缩小"
+        android:layout_height="50dp"
+        android:autoSizeTextType="uniform"
+        android:autoSizeMinTextSize="8sp"
+        android:autoSizeMaxTextSize="20sp"
+        android:autoSizeStepGranularity="2sp" />
 
+    <TextView
+        android:layout_width="200dp"
+        android:text="测试自动缩小"
+        app:autoSizeTextType="uniform"
+        app:autoSizePresetSizes="@array/autosize_text_sizes"
+        android:layout_height="50dp" />
+    <TextView
+        android:id="@+id/tv_auto"
+        android:layout_width="200dp"
+        android:text="测试自动缩小"
+        android:layout_height="50dp" />
 </LinearLayout>
