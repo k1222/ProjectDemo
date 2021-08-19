@@ -4,6 +4,7 @@ import androidx.lifecycle.LiveData;
 import androidx.lifecycle.MutableLiveData;
 import androidx.lifecycle.ViewModel;
 
+import com.example.projectdemo.db.entity.TestEntity;
 import com.example.projectdemo.db.repo.TestRepo;
 
 import java.util.List;
@@ -16,12 +17,12 @@ import java.util.List;
  * @date :2021/8/15 10:39 下午
  */
 public class TestViewModel extends ViewModel {
-    private MutableLiveData<List<Object>> data;
+    private MutableLiveData<List<TestEntity>> data;
     public TestViewModel(){
         data = new MutableLiveData<>();
     }
 
-    public LiveData<List<Object>> initDataLive(){
+    public LiveData<List<TestEntity>> initDataLive(){
         return data;
     }
     public void getData(String account){

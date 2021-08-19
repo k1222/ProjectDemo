@@ -46,11 +46,11 @@ public class TestRepo {
         }
         mDatabase.testDao().add(amHeartRateEntities);
     }
-    public List<Object>  getData(String account) {
+    public List<TestEntity>  getData(String account) {
         return mDatabase.testDao().getData(account);
     }
 
-    public LiveData<List<Object>> getDataLive(String account) {
+    public LiveData<List<TestEntity>> getDataLive(String account) {
         return mDatabase.testDao().getDataLive(account);
     }
 

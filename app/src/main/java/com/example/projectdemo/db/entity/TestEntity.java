@@ -1,6 +1,7 @@
 package com.example.projectdemo.db.entity;
 
 import androidx.room.Entity;
+import androidx.room.PrimaryKey;
 
 /**
  * @author admin
@@ -11,5 +12,23 @@ import androidx.room.Entity;
  */
 @Entity(tableName = "Test")
 public class TestEntity {
+    @PrimaryKey
+    public int id;
     public String account;
+
+    public int getId() {
+        return id;
+    }
+
+    public void setId(int id) {
+        this.id = id;
+    }
+
+    public String getAccount() {
+        return account;
+    }
+
+    public void setAccount(String account) {
+        this.account = account;
+    }
 }

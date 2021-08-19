@@ -5,8 +5,14 @@ plugins {
 android {
     compileSdkVersion 30
     buildToolsVersion "30.0.3"
-
     defaultConfig {
+        javaCompileOptions {
+            annotationProcessorOptions {
+                includeCompileClasspath = true
+                arguments = ["room.schemaLocation":
+                                     "$projectDir/schemas".toString()]
+            }
+        }
         applicationId "com.example.projectdemo"
         minSdkVersion 21
         targetSdkVersion 30

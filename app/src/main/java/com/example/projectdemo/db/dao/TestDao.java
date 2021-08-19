@@ -31,12 +31,12 @@ public interface TestDao {
     void update(TestEntity... entities);
 
     @Query("SELECT * FROM Test  WHERE account =:account ")
-    List<Object> getData(String account);
+    List<TestEntity> getData(String account);
 
     @Query("DELETE FROM Test  WHERE account =:account ")
     void deleteData(String account);
 
     @Query("SELECT * FROM Test  WHERE account =:account ")
-    LiveData<List<Object>> getDataLive(String account);
+    LiveData<List<TestEntity>> getDataLive(String account);
 
 }
