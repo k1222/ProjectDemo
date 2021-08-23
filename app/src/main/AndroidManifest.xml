@@ -9,7 +9,11 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.ProjectDemo">
-        <activity android:name=".TextActivity"></activity>
+        <activity
+            android:name=".TextInputLayoutActivity"
+            android:exported="true" />
+        <activity android:name=".EditTextActivity" />
+        <activity android:name=".TextActivity" />
         <activity android:name=".RecyclerViewActivity" />
         <activity android:name=".MainActivity">
             <intent-filter>

@@ -30,6 +30,7 @@ public class MainActivity extends AppCompatActivity {
         findViewById(R.id.btn_picker).setOnClickListener(v -> startActivity(new Intent(MainActivity.this, PickerActivity.class)));
         findViewById(R.id.btn_recycler_view).setOnClickListener(v -> startActivity(new Intent(MainActivity.this, RecyclerViewActivity.class)));
         findViewById(R.id.btn_text).setOnClickListener(v -> startActivity(new Intent(MainActivity.this, TextActivity.class)));
+        findViewById(R.id.btn_edit).setOnClickListener(v -> startActivity(new Intent(MainActivity.this, EditTextActivity.class)));
 //        viewModel = new ViewModelProvider(this).get(TestViewModel.class);
 //        TestRepo.getInstance().getDataLive("")
 //                .observe(this, new Observer<List<Object>>() {

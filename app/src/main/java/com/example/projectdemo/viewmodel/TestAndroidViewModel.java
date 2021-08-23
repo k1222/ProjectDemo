@@ -21,7 +21,7 @@ public class TestAndroidViewModel extends AndroidViewModel {
 
     public static class Factory extends ViewModelProvider.NewInstanceFactory {
 
-        private Application mApp;
+        private final Application mApp;
 
         public Factory(Application mApp) {
             this.mApp = mApp;

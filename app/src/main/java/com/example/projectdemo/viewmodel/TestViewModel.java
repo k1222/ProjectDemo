@@ -17,7 +17,7 @@ import java.util.List;
  * @date :2021/8/15 10:39 下午
  */
 public class TestViewModel extends ViewModel {
-    private MutableLiveData<List<TestEntity>> data;
+    private final MutableLiveData<List<TestEntity>> data;
     public TestViewModel(){
         data = new MutableLiveData<>();
     }
