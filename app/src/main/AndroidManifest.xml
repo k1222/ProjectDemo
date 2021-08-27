@@ -10,6 +10,12 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.ProjectDemo">
         <activity
+            android:name=".LinearLayoutActivity"
+            android:exported="true" />
+        <activity
+            android:name=".FloatingActionButtonActivity"
+            android:exported="true" />
+        <activity
             android:name=".TextInputLayoutActivity"
             android:exported="true" />
         <activity android:name=".EditTextActivity" />
