@@ -62,4 +62,20 @@
         android:textColor="@color/white"
         android:background="@android:color/holo_blue_light"
         android:layout_height="wrap_content"/>
+    <Button
+        android:id="@+id/btn_relative_layout"
+        android:layout_width="wrap_content"
+        android:text="跳转至  RelativeLayout 页"
+        android:layout_marginTop="15dp"
+        android:textColor="@color/white"
+        android:background="@android:color/holo_blue_light"
+        android:layout_height="wrap_content"/>
+    <Button
+        android:id="@+id/btn_relative_layout2"
+        android:layout_width="wrap_content"
+        android:text="跳转至  RelativeLayout2 页"
+        android:layout_marginTop="15dp"
+        android:textColor="@color/white"
+        android:background="@android:color/holo_blue_light"
+        android:layout_height="wrap_content"/>
 </LinearLayout>
