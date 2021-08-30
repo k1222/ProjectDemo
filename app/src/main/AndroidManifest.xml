@@ -10,6 +10,9 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.ProjectDemo">
         <activity
+            android:name=".SpacActivity"
+            android:exported="true" />
+        <activity
             android:name=".RelativeLayoutActivity"
             android:exported="true" />
         <activity
