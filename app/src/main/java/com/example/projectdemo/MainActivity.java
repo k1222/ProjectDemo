@@ -37,6 +37,7 @@ public class MainActivity extends AppCompatActivity {
         findViewById(R.id.btn_relative_layout).setOnClickListener(v -> startActivity(new Intent(MainActivity.this, RelativeLayoutActivity.class)));
         findViewById(R.id.btn_relative_layout2).setOnClickListener(v -> startActivity(new Intent(MainActivity.this, RelativeLayoutActivity2.class)));
         findViewById(R.id.btn_relative_layout2).setOnClickListener(v -> startActivity(new Intent(MainActivity.this, SpacActivity.class)));
+        findViewById(R.id.btn_switch).setOnClickListener(v -> startActivity(new Intent(MainActivity.this, SwitchActivity.class)));
 //        viewModel = new ViewModelProvider(this).get(TestViewModel.class);
 //        TestRepo.getInstance().getDataLive("")
 //                .observe(this, new Observer<List<Object>>() {

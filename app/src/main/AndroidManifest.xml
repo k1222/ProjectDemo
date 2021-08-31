@@ -10,6 +10,9 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.ProjectDemo">
         <activity
+            android:name=".SwitchActivity"
+            android:exported="true" />
+        <activity
             android:name=".SpacActivity"
             android:exported="true" />
         <activity
